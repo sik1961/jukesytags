@@ -1,0 +1,4 @@
+xattr -pl com.apple.metadata:_kMDItemUserTags DSC_0185_1.JPG
+
+xattr -w com.apple.metadata:_kMDItemUserTags '<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><array><string>Orange</string><string>Red</string></array></plist>' $currentFile
+
